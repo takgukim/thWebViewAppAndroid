@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         web = findViewById(R.id.webview);
         web.getSettings().setJavaScriptEnabled(true);
         web.setWebViewClient(new WebViewClient());
-        web.loadUrl("http://10.0.2.2:8080/index.html");
+        web.loadUrl("http://10.0.2.2:5173");
 
         // 최신 안드로이드 방식
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
